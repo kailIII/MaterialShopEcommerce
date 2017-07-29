@@ -9,6 +9,7 @@ class AdminController {
       {field: 'name'},
       {field: 'role', dataType: 'select', options: userRoles}
     ];
+   
     if(Settings.demo)
       this.options.push({field: 'null', heading: 'email (Hidden in demo mode)'})
     else
