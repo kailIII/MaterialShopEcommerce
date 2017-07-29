@@ -40,6 +40,7 @@ angular.module('materialShopApp')
           '' : {
             templateUrl: 'app/category/main.html'
           },
+          
           'detail': {
             templateUrl: 'app/category/detail.html',
             controller: 'CategoriesDetailController as detail'
