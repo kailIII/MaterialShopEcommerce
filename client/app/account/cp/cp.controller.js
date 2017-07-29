@@ -8,8 +8,7 @@ class CpController {
     this.Toast = Toast;
     this.Auth = Auth;
   }
-
-  changePassword(form) {
+    changePassword(form) {
     this.submitted = true;
 
     if (form.$valid) {
