@@ -5,7 +5,8 @@
 
 		<form name="form" ng-submit="signup.register(form)" novalidate>
 
-			<section class="section" layout="column">
+			
+      <section class="section" layout="column">
 				<md-input-container md-is-error="form.name.$error.required && form.name.$dirty">
 					<label>Name</label>
 					<input name="name" ng-model="signup.user.name" required md-autofocus/>
