@@ -8,5 +8,6 @@ angular.module('materialShopApp')
         templateUrl: 'app/address/address.html',
         controller: 'AddressController as address',
         authenticate: true
-      })
+      
+    })
   });
