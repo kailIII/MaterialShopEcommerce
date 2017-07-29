@@ -8,5 +8,6 @@ angular.module('materialShopApp')
         templateUrl: 'app/brand/brand.html',
         controller: 'BrandCtrl',
         authenticate: 'manager'
-      });
+      
+    });
   });
