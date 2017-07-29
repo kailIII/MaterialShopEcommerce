@@ -29,7 +29,8 @@ angular.module('materialShopApp')
           }
         },
             authenticate: 'manager'
-      })
+     
+    })
       .state('category-detail', {
         url: '/category-detail/:id',
         onEnter: onEnterUserListDetail, // To open right sidebar
