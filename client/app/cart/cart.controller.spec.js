@@ -1,5 +1,6 @@
 'use strict';
 
+
 describe('Controller: PaymentsCtrl', function () {
 
   // load the controller's module
