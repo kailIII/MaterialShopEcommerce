@@ -2,7 +2,8 @@
 
 (function() {
 
-class CartController {
+
+  class CartController {
   constructor() {
     
   }
