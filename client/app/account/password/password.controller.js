@@ -7,6 +7,7 @@ class PasswordController {
     this.errors = {};
     this.submitted = false;
 
+   
     this.Auth = Auth;
     this.$state = $state;
     this.$http = $http;
