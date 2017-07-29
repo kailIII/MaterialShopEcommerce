@@ -9,6 +9,7 @@ class SignupController {
     this.$state = $state;
   }
 
+  
   register(form) {
     this.submitted = true;
     if (form.$valid) {
