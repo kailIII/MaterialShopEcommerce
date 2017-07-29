@@ -8,5 +8,6 @@ angular.module('materialShopApp')
         templateUrl: 'app/cart/cart.html',
         controller: 'CartController as cart',
         authenticate: true
-      });
+      
+    });
   });
