@@ -15,6 +15,7 @@ function CategoriesDetailController($http, $state, Toast, $stateParams, ToggleCo
   vm.category = angular.copy($stateParams.categories);
   vm.options.categories = angular.copy($stateParams.categories);
 
+  
   vm.mediaLibrary = function(index){
     $mdDialog.show({
       template: `<md-dialog aria-label="Media Library" ng-cloak flex="95">
