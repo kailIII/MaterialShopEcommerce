@@ -5,7 +5,8 @@
 
 	<p class="md-warn message" ng-show="forgot.errors.message">{{forgot.errors.message}}</p>
 
-	<form name="form" ng-submit="forgot.forgot(form)" novalidate>
+	
+  <form name="form" ng-submit="forgot.forgot(form)" novalidate>
 		<section class="section" layout="column">
 			<md-input-container md-is-error="(form.email.$error.required || form.email.$error.email || forgot.errors.other) && form.email.$dirty">
 				<label>Email</label>
