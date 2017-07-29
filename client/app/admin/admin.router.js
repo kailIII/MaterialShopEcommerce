@@ -8,5 +8,6 @@ angular.module('materialShopApp.admin')
         templateUrl: 'app/admin/admin.html',
         controller: 'AdminController as admin',
         authenticate: 'admin'
-      });
+      
+    });
   });
