@@ -8,6 +8,7 @@ function CategoriesListController($scope, $http, socket, $state, $stateParams, M
     {field: 'name', heading: 'name'},
     {field: 'status', heading: 'status'}
   ];
+  
   this.header = 'Categories';
   this.sort = {};
   this.$mdDialog = $mdDialog;
