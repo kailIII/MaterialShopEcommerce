@@ -1,7 +1,8 @@
 'use strict';
 (function(){
 
-class CategoryComponent {
+
+  class CategoryComponent {
   constructor(Modal) {
     this.message = 'Hello';
   }
