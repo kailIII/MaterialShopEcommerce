@@ -2,7 +2,8 @@
 
 (function() {
 
-class AddressController {
+
+  class AddressController {
     constructor(Toast, Address, Settings, socket, $http, $scope,$mdDialog) {
         var vm = this;
         this.Address = Address;
