@@ -1,5 +1,6 @@
 'use strict';
 
+
 angular.module('materialShopApp')
   .config(function ($stateProvider) {
     $stateProvider
