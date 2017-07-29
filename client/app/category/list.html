@@ -7,6 +7,7 @@
 <md-progress-linear md-mode="indeterminate" ng-show="list.loading"></md-progress-linear>
 
 <!-- Nested node template -->
+
 <script type="text/ng-template" id="nodes_renderer.html">
   <div ui-tree-handle class="tree-node tree-node-content" layout="row">
     <a class="btn btn-success btn-xs" ng-if="node.child && node.child.length > 0" data-nodrag ng-click="list.toggle(this)">
