@@ -7,6 +7,7 @@ describe('Controller: BrandCtrl', function () {
 
   var BrandCtrl, scope;
 
+  
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
