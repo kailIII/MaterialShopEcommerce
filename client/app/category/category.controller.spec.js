@@ -2,6 +2,7 @@
 
 describe('Component: CategoryComponent', function () {
 
+  
   // load the controller's module
   beforeEach(module('materialShopApp'));
 
