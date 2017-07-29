@@ -11,7 +11,8 @@
 
 	<p ng-show="login.error" class="md-warn">{{login.error.message}}</p>
 
-	<form name="form" ng-submit="login.login(form)" novalidate>
+	
+  <form name="form" ng-submit="login.login(form)" novalidate>
 	<section class="section" layout="column">
 		<md-input-container md-is-error="(form.email.$error.required || form.email.$error.email) && form.email.$dirty">
 			<label>Email</label>
