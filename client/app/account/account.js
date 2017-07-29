@@ -50,6 +50,7 @@ angular.module('materialShopApp')
         authenticate: true
       });
   })
+  
   .run(function($rootScope, Auth) {
     $rootScope.$on('$stateChangeStart', function(event, next, nextParams, current) {
       if (next.name === 'logout' && current && current.name && !current.authenticate) {
