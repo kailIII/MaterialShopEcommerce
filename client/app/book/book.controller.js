@@ -11,5 +11,6 @@ angular.module('materialShopApp')
       {field: 'releaseDate', dataType: 'date'},
       {field: 'isbn', heading: 'ISBN', dataType: 'text', noEdit: true},
       {field: 'active', heading: 'Availability', dataType: 'boolean'}
+    
     ];
   });
