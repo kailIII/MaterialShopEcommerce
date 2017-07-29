@@ -9,7 +9,8 @@ function CategoriesMainController(Modal, $stateParams) {
   // }
 }
 
-angular.module('materialShopApp')
+
+  angular.module('materialShopApp')
   .controller('CategoriesMainController', CategoriesMainController);
 
 })();
