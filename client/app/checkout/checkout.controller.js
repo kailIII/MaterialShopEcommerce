@@ -39,6 +39,7 @@ class CheckoutController {
         this.socket = socket;
         
         this.Toast = Toast;
+        
         this.Cart = Cart;
         this.newAddress = false;
         this.options = {}
