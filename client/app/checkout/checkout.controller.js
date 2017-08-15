@@ -27,6 +27,7 @@ class CheckoutController {
         this.Auth = Auth;
         
         this.addr = {};
+        
         this.order = {};
         this.$http = $http;
         this.$mdDialog = $mdDialog;
