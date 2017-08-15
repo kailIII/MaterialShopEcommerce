@@ -45,6 +45,7 @@ class CheckoutController {
         this.newAddress = false;
         
         this.options = {}
+        
         this.stripeToken = {
             number: '4242424242424242',
             cvc: '123',
