@@ -23,6 +23,7 @@ class CheckoutController {
         this.cart = Cart.cart;
         
         this.Address = Address;
+        
         this.Auth = Auth;
         this.addr = {};
         this.order = {};
