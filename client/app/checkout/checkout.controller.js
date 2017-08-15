@@ -41,6 +41,7 @@ class CheckoutController {
         this.Toast = Toast;
         
         this.Cart = Cart;
+        
         this.newAddress = false;
         this.options = {}
         this.stripeToken = {
