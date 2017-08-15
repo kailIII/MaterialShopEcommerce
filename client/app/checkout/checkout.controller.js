@@ -13,6 +13,7 @@ class CheckoutController {
         this.coupon = {};
         
         this.Coupon = Coupon;
+        
         this.Shipping = Shipping;
         this.Order = Order;
         this.Pay = Pay;
