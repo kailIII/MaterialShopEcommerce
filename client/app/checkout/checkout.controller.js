@@ -53,6 +53,7 @@ class CheckoutController {
             cvc: '123',
             
             exp_month: '12',
+            
             exp_year: '2020'
         }
         PaymentMethod.active.query(function(res){
