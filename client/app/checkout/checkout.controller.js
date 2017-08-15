@@ -19,6 +19,7 @@ class CheckoutController {
         this.Order = Order;
         
         this.Pay = Pay;
+        
         this.cart = Cart.cart;
         this.Address = Address;
         this.Auth = Auth;
