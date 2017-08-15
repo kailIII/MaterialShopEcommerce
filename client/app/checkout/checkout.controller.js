@@ -7,6 +7,7 @@ class CheckoutController {
         var vm = this;
         
         this.msg = 'No items in cart.';
+        
         this.customer = {};
         this.coupon = {};
         this.Coupon = Coupon;
