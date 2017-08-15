@@ -5,6 +5,7 @@
 class CheckoutController {
     constructor(Cart,Country,PaymentMethod,Shipping,Coupon,Order,Pay,Toast, Address, Settings, socket, $scope,Auth,$stateParams,$state,$http,$mdDialog, $window) {
         var vm = this;
+        
         this.msg = 'No items in cart.';
         this.customer = {};
         this.coupon = {};
