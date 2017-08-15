@@ -9,6 +9,7 @@ class CheckoutController {
         this.msg = 'No items in cart.';
         
         this.customer = {};
+        
         this.coupon = {};
         this.Coupon = Coupon;
         this.Shipping = Shipping;
