@@ -33,6 +33,7 @@ class CheckoutController {
         this.$http = $http;
         
         this.$mdDialog = $mdDialog;
+        
         this.$window = $window;
         this.socket = socket;
         this.Toast = Toast;
