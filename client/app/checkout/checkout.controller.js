@@ -35,6 +35,7 @@ class CheckoutController {
         this.$mdDialog = $mdDialog;
         
         this.$window = $window;
+        
         this.socket = socket;
         this.Toast = Toast;
         this.Cart = Cart;
