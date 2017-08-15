@@ -15,6 +15,7 @@ class CheckoutController {
         this.Coupon = Coupon;
         
         this.Shipping = Shipping;
+        
         this.Order = Order;
         this.Pay = Pay;
         this.cart = Cart.cart;
