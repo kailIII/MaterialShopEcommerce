@@ -37,6 +37,7 @@ class CheckoutController {
         this.$window = $window;
         
         this.socket = socket;
+        
         this.Toast = Toast;
         this.Cart = Cart;
         this.newAddress = false;
