@@ -29,6 +29,7 @@ class CheckoutController {
         this.addr = {};
         
         this.order = {};
+        
         this.$http = $http;
         this.$mdDialog = $mdDialog;
         this.$window = $window;
