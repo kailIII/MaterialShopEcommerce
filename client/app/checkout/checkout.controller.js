@@ -121,7 +121,8 @@ class CheckoutController {
           .textContent('This is unrecoverable')
             
           .ariaLabel('Confirm delete address')
-            .ok('Please do it!')
+            
+          .ok('Please do it!')
             .cancel('No. keep')
 
             this.$mdDialog.show(confirm).then(function() {
