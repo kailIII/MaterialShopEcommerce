@@ -226,6 +226,7 @@ class CheckoutController {
         order.shipping = vm.shipping.best
         
         if(!vm.coupon) vm.coupon = {amount : 0}
+        
         else if(!vm.coupon.amount) vm.coupon = {amount : 0}
         order.couponAmount = vm.coupon.amount
         order.stripeToken = vm.stripeToken
