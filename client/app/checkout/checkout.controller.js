@@ -240,6 +240,7 @@ class CheckoutController {
         order.exchange_rate = vm.Settings.currency.exchange_rate
         
         order.total = vm.cartTotal + vm.shipping.best.charge - vm.coupon.amount
+        
         order.email = this.Auth.getCurrentUser().email;
         order.payment = 'Pending'
         order.items = this.cart.items
