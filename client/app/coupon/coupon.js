@@ -13,6 +13,7 @@ angular.module('materialShopApp')
     templateUrl: 'app/coupon/coupon.html',
         
     controller: 'CouponCtrl',
-        authenticate: 'admin'
+        
+    authenticate: 'admin'
       });
   });
