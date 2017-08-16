@@ -56,7 +56,8 @@ class CheckoutController {
             
             exp_year: '2020'
         }
-        PaymentMethod.active.query(function(res){
+       
+          PaymentMethod.active.query(function(res){
             vm.paymentOptions = res;
             vm.options.paymentMethod = res[0];
         })
