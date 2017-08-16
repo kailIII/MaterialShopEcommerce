@@ -113,6 +113,7 @@ class CheckoutController {
       delete(item){
           
           var vm = this;
+          
           var confirm = this.$mdDialog.confirm()
             
           .title('Would you like to delete the address?')
