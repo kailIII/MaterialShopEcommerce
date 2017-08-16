@@ -17,6 +17,7 @@ describe('Controller: CheckoutCtrl', function () {
     CheckoutCtrl = $controller('CheckoutCtrl', {
       
       $scope: scope
+    
     });
   }));
 
