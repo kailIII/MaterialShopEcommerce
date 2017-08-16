@@ -5,7 +5,8 @@ angular.module('materialShopApp')
   .config(function ($stateProvider) {
     
   $stateProvider
-      .state('contact', {
+      
+    .state('contact', {
         url: '/contact',
         templateUrl: 'app/contact/contact.html',
         controller: 'ContactCtrl',
