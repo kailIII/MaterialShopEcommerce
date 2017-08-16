@@ -114,6 +114,7 @@
                     <md-input-container md-is-error="(form.number.$error.required || form.number.$error.number) && form.number.$dirty" md-no-float>
                         
                       <input name="number" type="text" ng-model="checkout.stripeToken.number"
+                        
                         placeholder="Credit Card Number"
                         autocomplete="off"
                         ng-minlength="16"
