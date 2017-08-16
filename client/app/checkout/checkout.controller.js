@@ -250,7 +250,8 @@ class CheckoutController {
         delete order._id;
         
         if('charge' in order.shipping){
-            this.loading = true;
+            
+          this.loading = true;
             this.cart.checkout(order,clearCart)
         }
         else{
