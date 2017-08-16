@@ -13,6 +13,7 @@ describe('Controller: CheckoutCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     
     scope = $rootScope.$new();
+    
     CheckoutCtrl = $controller('CheckoutCtrl', {
       $scope: scope
     });
