@@ -260,7 +260,8 @@
       <md-button type="submit" class="md-raised circular-progress-button md-primary" 
         
        ng-disabled="orderForm.number.$invalid || orderForm.exp_month.$invalid || orderForm.exp_year.$invalid || orderForm.cvc.$invalid || !orderForm.$valid || checkout.loading || checkout.Cart.cart.getTotalPrice()===0 || !checkout.addr" aria-label="Place Order" layout="row" layout-align="center center"> 
-            <div flex></div>
+            
+        <div flex></div>
             <ng-md-icon icon="local_shipping" ng-hide="checkout.loading"></ng-md-icon>
             <md-progress-circular md-mode="indeterminate" md-diameter="25" ng-show="checkout.loading" class="md-accent md-hue-1"></md-progress-circular>
             <span>&nbsp;Place Order</span>
