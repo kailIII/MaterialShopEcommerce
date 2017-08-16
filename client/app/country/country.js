@@ -3,7 +3,8 @@
 angular.module('materialShopApp')
   
   .config(function ($stateProvider) {
-    $stateProvider
+    
+  $stateProvider
       .state('country', {
         url: '/country',
         templateUrl: 'app/country/country.html',
