@@ -52,7 +52,8 @@
         <td><h3>Order Total:</h3></td>
 			    
         <td><h3>{{checkout.Cart.cart.getTotalPrice() | currency : checkout.Settings.currency.symbol}}</h3></td>
-			</tr>
+			
+      </tr>
             <tr class="md-table-content-row">
 				<td>Shipping: </td>
 			    <td ng-if="vm.shipping.best">
