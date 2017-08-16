@@ -236,6 +236,7 @@ class CheckoutController {
         order.country_code = vm.Settings.country.code
         
         order.currency_code = vm.Settings.currency.code
+        
         order.exchange_rate = vm.Settings.currency.exchange_rate
         order.total = vm.cartTotal + vm.shipping.best.charge - vm.coupon.amount
         order.email = this.Auth.getCurrentUser().email;
