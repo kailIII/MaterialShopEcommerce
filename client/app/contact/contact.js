@@ -17,5 +17,6 @@ angular.module('materialShopApp')
     authenticate: true,
         
     title: 'Contacts Manager'
-      });
+     
+  });
   });
