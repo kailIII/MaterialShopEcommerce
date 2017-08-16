@@ -212,7 +212,8 @@ class CheckoutController {
         }
       
         if(!_.has(order, 'paymentMethod') || order.paymentMethod==undefined){
-            vm.Toast.show({ type: 'error', text: 'Please select a payment method' });
+            
+          vm.Toast.show({ type: 'error', text: 'Please select a payment method' });
             return;
         }
   
