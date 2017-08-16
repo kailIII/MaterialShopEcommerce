@@ -201,6 +201,7 @@ class CheckoutController {
         var vm = this;
         
         order = _.merge(order,o)
+        
         order.options = {};
         if(!_.has(order, 'phone') || !order.phone){
             vm.Toast.show({ type: 'error', text: 'You need to specify an address with phone number' });
