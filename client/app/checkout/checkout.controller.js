@@ -256,11 +256,13 @@ class CheckoutController {
           this.cart.checkout(order,clearCart)
         }
         else{
-            vm.Toast.show({ type: 'error', text: 'Item not available for your location' });
+           
+          vm.Toast.show({ type: 'error', text: 'Item not available for your location' });
         }
       }
 
       removeCoupon(){
+        
         this.coupon = {};
       }
       
