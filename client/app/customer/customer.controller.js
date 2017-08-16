@@ -3,7 +3,8 @@
 angular.module('materialShopApp')
   
   .controller('CustomerCtrl', function ($scope) {
-    $scope.options = [
+    
+  $scope.options = [
       {field: 'photo', heading: 'Image', dataType: 'image'},
       {field: 'name', noSort: true, noEdit: true},
       {field: 'address', dataType: 'textarea'},
