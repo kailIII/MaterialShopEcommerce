@@ -131,7 +131,8 @@ class CheckoutController {
             vm.Address.delete({id:item._id}, function() {},function (res) {
             
             vm.Toast.show({ type: 'error', text: res });
-                });  
+                
+            });  
             })
       }
       // Setting the default country on page load
