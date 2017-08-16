@@ -16,5 +16,6 @@ angular.module('materialShopApp')
     {field: 'category', dataType: 'select', options: ['Family', 'Friends', 'Acquaintances', 'Services']},
       
     {field: 'active', dataType: 'boolean'}
-    ];
+    
+  ];
   });
