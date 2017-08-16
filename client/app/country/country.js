@@ -9,7 +9,8 @@ angular.module('materialShopApp')
     .state('country', {
         
     url: '/country',
-        templateUrl: 'app/country/country.html',
+        
+    templateUrl: 'app/country/country.html',
         controller: 'CountryCtrl',
         authenticate: 'manager'
       });
