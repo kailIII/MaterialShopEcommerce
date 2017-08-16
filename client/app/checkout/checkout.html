@@ -359,7 +359,8 @@
           <label>Phone</label>
 			
           <input name="phone" type="phone" ng-model="checkout.addr.phone" required/>
-			<div ng-messages="form.phone.$error" ng-if="form.phone.$dirty">
+			
+          <div ng-messages="form.phone.$error" ng-if="form.phone.$dirty">
 				<div ng-message="required">Phone number is required</div>
 			</div>
 		</md-input-container>
