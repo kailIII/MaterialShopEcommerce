@@ -11,7 +11,8 @@ angular.module('materialShopApp')
     url: '/country',
         
     templateUrl: 'app/country/country.html',
-        controller: 'CountryCtrl',
+        
+    controller: 'CountryCtrl',
         authenticate: 'manager'
       });
   });
