@@ -123,7 +123,8 @@ class CheckoutController {
           .ariaLabel('Confirm delete address')
             
           .ok('Please do it!')
-            .cancel('No. keep')
+            
+          .cancel('No. keep')
 
             this.$mdDialog.show(confirm).then(function() {
                 vm.Address.delete({id:item._id}, function() {},function (res) {
