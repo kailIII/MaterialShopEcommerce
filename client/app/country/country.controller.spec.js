@@ -13,6 +13,7 @@ describe('Controller: CountryCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     
     scope = $rootScope.$new();
+    
     CountryCtrl = $controller('CountryCtrl', {
       $scope: scope
     });
