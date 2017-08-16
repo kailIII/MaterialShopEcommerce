@@ -83,6 +83,7 @@ class CheckoutController {
         });
         // vm.cartTotal = Cart.cart.getTotalPrice();
         // vm.cartCount = Cart.cart.getTotalCount();
+        
         vm.getBestShipper()
     }
       getMyAddress(){
