@@ -55,7 +55,8 @@
 			
       </tr>
             <tr class="md-table-content-row">
-				<td>Shipping: </td>
+				
+              <td>Shipping: </td>
 			    <td ng-if="vm.shipping.best">
                     <span class="md-3-line" ng-if="vm.shipping.best.charge>0">
                         {{vm.shipping.best.charge | currency : checkout.Settings.currency.symbol}} ({{vm.shipping.best.carrier}})
