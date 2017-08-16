@@ -88,7 +88,8 @@
 			    
               <td><h2>{{checkout.Cart.cart.getTotalPrice() + vm.shipping.best.charge - checkout.coupon.amount | currency : checkout.Settings.currency.symbol}}</h2></td>
 			</tr>
-            <tr class="md-table-content-row">
+            
+      <tr class="md-table-content-row">
 				<td><h3>Payment Method:</h3></td>
 			    <td><h3>
                     <md-select ng-model="checkout.options.paymentMethod" placeholder="Payment Method">
