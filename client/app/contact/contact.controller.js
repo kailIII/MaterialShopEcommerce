@@ -6,7 +6,8 @@ angular.module('materialShopApp')
   $scope.options = [
       
     {field: 'photo', dataType: 'image'},
-      {field: 'name', noEdit: true},
+      
+    {field: 'name', noEdit: true},
       {field: 'email'},
       {field: 'phone'},
       {field: 'category', dataType: 'select', options: ['Family', 'Friends', 'Acquaintances', 'Services']},
