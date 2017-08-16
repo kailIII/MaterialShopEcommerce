@@ -7,7 +7,8 @@ angular.module('materialShopApp')
   $stateProvider
       
     .state('coupon', {
-        url: '/coupon',
+       
+    url: '/coupon',
         templateUrl: 'app/coupon/coupon.html',
         controller: 'CouponCtrl',
         authenticate: 'admin'
