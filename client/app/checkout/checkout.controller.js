@@ -76,6 +76,7 @@ class CheckoutController {
         this.payment = {id: $stateParams.id, msg: [{field: ':', issue: $stateParams.msg}]}
 
         this.$state = $state
+        
         $scope.$on('$destroy', function() {
             socket.unsyncUpdates('address');
         });
