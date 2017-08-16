@@ -355,7 +355,8 @@
 		</md-input-container>
         
         <md-input-container md-is-error="(form.phone.$error.required || form.phone.$error.phone) && form.phone.$dirty">
-			<label>Phone</label>
+			
+          <label>Phone</label>
 			<input name="phone" type="phone" ng-model="checkout.addr.phone" required/>
 			<div ng-messages="form.phone.$error" ng-if="form.phone.$dirty">
 				<div ng-message="required">Phone number is required</div>
