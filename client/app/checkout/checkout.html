@@ -196,7 +196,8 @@
               <td>Expiry Year:</td>
 			    <td>
                     <md-input-container md-is-error="(form.exp_year.$error.required || form.exp_year.$error.exp_year) && form.exp_year.$dirty" md-no-float>
-                        <input name="exp_year" type="text" ng-model="checkout.stripeToken.exp_year"
+                        
+                      <input name="exp_year" type="text" ng-model="checkout.stripeToken.exp_year"
                         placeholder="Credit Card Expiry Month"
                         autocomplete="off"
                         ng-pattern="'^(20)\\d{2}$'"/>
