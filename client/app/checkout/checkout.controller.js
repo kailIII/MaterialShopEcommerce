@@ -152,7 +152,8 @@ class CheckoutController {
       }
 
       saveAddress(data){
-          var vm = this;
+          
+        var vm = this;
           data.country = vm.Settings.country.name
           vm.loadingAddress = true;
           if(_.has(data, '_id')){
