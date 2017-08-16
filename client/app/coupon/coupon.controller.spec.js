@@ -26,5 +26,6 @@ describe('Controller: CouponCtrl', function () {
     
     expect(1).toEqual(1);
   
+  
   });
 });
