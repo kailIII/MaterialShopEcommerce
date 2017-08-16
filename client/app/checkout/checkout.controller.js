@@ -195,6 +195,7 @@ class CheckoutController {
       }
       
       checkout(order,o,clearCart){
+        
         var vm = this;
         order = _.merge(order,o)
         order.options = {};
