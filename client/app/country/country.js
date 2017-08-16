@@ -7,7 +7,8 @@ angular.module('materialShopApp')
   $stateProvider
       
     .state('country', {
-        url: '/country',
+        
+    url: '/country',
         templateUrl: 'app/country/country.html',
         controller: 'CountryCtrl',
         authenticate: 'manager'
