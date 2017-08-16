@@ -207,7 +207,8 @@
                       ng-pattern="'^(20)\\d{2}$'"/>
                         
                       <small class="errorMessage" ng-show="orderForm.exp_year.$dirty && orderForm.exp_year.$invalid"> Credit Card exp_year is invalid.
-                        </small>
+                        
+                      </small>
                         <div ng-messages="orderForm.exp_year.$error" ng-if="orderForm.exp_year.$dirty">
                             <div ng-message="required">Expiry Year is required</div>
                         </div>
