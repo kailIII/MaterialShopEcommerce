@@ -311,7 +311,8 @@
           <input name="address" type="address" ng-model="checkout.addr.address" required/>
 			
           <div ng-messages="form.address.$error" ng-if="form.address.$dirty">
-				<div ng-message="required">Address is required</div>
+				
+            <div ng-message="required">Address is required</div>
 			</div>
 		</md-input-container>
         
