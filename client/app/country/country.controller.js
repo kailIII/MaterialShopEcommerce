@@ -13,5 +13,6 @@ angular.module('materialShopApp')
     {field: 'code'},
       
     {field: 'active', dataType: 'boolean'}
-    ];
+    
+  ];
   });
