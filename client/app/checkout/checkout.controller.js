@@ -176,7 +176,8 @@ class CheckoutController {
             this.Address.save(data, function () {
                 
               vm.loadingAddress = false;
-                vm.getMyAddress();
+                
+              vm.getMyAddress();
             })
           }
           vm.addressForm(false);
