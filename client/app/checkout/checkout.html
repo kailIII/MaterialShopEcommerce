@@ -192,7 +192,8 @@
                 </td>
 			</tr>
             <tr class="md-table-content-row" ng-if="checkout.options.paymentMethod.name==='Stripe'">
-				<td>Expiry Year:</td>
+				
+              <td>Expiry Year:</td>
 			    <td>
                     <md-input-container md-is-error="(form.exp_year.$error.required || form.exp_year.$error.exp_year) && form.exp_year.$dirty" md-no-float>
                         <input name="exp_year" type="text" ng-model="checkout.stripeToken.exp_year"
