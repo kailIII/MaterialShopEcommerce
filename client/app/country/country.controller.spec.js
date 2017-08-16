@@ -15,6 +15,7 @@ describe('Controller: CountryCtrl', function () {
     scope = $rootScope.$new();
     
     CountryCtrl = $controller('CountryCtrl', {
+     
       $scope: scope
     });
   }));
