@@ -108,7 +108,8 @@
                 </h3></td>
 			</tr>
             <tr class="md-table-content-row" ng-if="checkout.options.paymentMethod.name==='Stripe'">
-				<td>Card No:</td>
+				
+              <td>Card No:</td>
 			    <td>
                     <md-input-container md-is-error="(form.number.$error.required || form.number.$error.number) && form.number.$dirty" md-no-float>
                         <input name="number" type="text" ng-model="checkout.stripeToken.number"
