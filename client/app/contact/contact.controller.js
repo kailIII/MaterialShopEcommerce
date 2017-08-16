@@ -4,7 +4,8 @@ angular.module('materialShopApp')
   .controller('ContactCtrl', function ($scope) {
     
   $scope.options = [
-      {field: 'photo', dataType: 'image'},
+      
+    {field: 'photo', dataType: 'image'},
       {field: 'name', noEdit: true},
       {field: 'email'},
       {field: 'phone'},
