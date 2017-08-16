@@ -274,6 +274,7 @@ class CheckoutController {
         q.where = {code:code,active:true,'minimumCartValue' : { $lte: cartValue } };
         
         this.Coupon.query(q, function(res){
+          
           vm.coupon = res[0];
         })
 
