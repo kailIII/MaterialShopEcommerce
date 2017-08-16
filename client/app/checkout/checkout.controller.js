@@ -119,7 +119,8 @@ class CheckoutController {
           .title('Would you like to delete the address?')
             
           .textContent('This is unrecoverable')
-            .ariaLabel('Confirm delete address')
+            
+          .ariaLabel('Confirm delete address')
             .ok('Please do it!')
             .cancel('No. keep')
 
