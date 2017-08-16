@@ -181,7 +181,8 @@ class CheckoutController {
               vm.getMyAddress();
             })
           }
-          vm.addressForm(false);
+          
+         vm.addressForm(false);
       }
 
       addressForm(visible){
