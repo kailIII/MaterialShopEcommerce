@@ -10,7 +10,8 @@ angular.module('materialShopApp')
     {field: 'name', noEdit: true},
       
     {field: 'email'},
-      {field: 'phone'},
+      
+    {field: 'phone'},
       {field: 'category', dataType: 'select', options: ['Family', 'Friends', 'Acquaintances', 'Services']},
       {field: 'active', dataType: 'boolean'}
     ];
