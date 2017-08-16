@@ -219,7 +219,8 @@ class CheckoutController {
         }
   
         if(this.cart.items.length==0){
-            vm.Toast.show({ type: 'error', text: 'Your cart found empty. Please add some items' });
+            
+          vm.Toast.show({ type: 'error', text: 'Your cart found empty. Please add some items' });
         }
         order.shipping = vm.shipping.best
         if(!vm.coupon) vm.coupon = {amount : 0}
