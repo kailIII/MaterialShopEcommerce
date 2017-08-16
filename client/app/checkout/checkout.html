@@ -339,7 +339,8 @@
 		</md-input-container>
         
         <md-input-container md-is-error="(form.state.$error.required || form.state.$error.state) && form.state.$dirty">
-			<label>State</label>
+			
+          <label>State</label>
 			<input name="state" type="state" ng-model="checkout.addr.state" required/>
 			<div ng-messages="form.state.$error" ng-if="form.state.$dirty">
 				<div ng-message="required">State is required</div>
