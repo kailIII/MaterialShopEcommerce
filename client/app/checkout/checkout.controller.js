@@ -193,6 +193,7 @@ class CheckoutController {
           
           this.addr = this.address[0];
       }
+      
       checkout(order,o,clearCart){
         var vm = this;
         order = _.merge(order,o)
