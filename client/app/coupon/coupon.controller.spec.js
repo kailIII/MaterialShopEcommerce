@@ -2,6 +2,7 @@
 
 describe('Controller: CouponCtrl', function () {
 
+  
   // load the controller's module
   beforeEach(module('materialShopApp'));
 
