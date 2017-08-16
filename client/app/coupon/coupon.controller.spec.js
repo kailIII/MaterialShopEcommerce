@@ -28,4 +28,5 @@ describe('Controller: CouponCtrl', function () {
   
   
   });
+
 });
