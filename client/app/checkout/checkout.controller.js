@@ -222,6 +222,7 @@ class CheckoutController {
             
           vm.Toast.show({ type: 'error', text: 'Your cart found empty. Please add some items' });
         }
+        
         order.shipping = vm.shipping.best
         if(!vm.coupon) vm.coupon = {amount : 0}
         else if(!vm.coupon.amount) vm.coupon = {amount : 0}
