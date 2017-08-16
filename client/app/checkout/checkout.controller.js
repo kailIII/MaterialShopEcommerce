@@ -244,6 +244,7 @@ class CheckoutController {
         order.email = this.Auth.getCurrentUser().email;
         
         order.payment = 'Pending'
+        
         order.items = this.cart.items
         delete order._id;
         if('charge' in order.shipping){
