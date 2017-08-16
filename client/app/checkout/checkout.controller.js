@@ -143,7 +143,8 @@ class CheckoutController {
        getBestShipper(){
         
          var vm = this;
-        vm.Cart.cart.getBestShipper().$promise.then(function(data){
+         
+         vm.Cart.cart.getBestShipper().$promise.then(function(data){
             vm.shipping = data[0];
         })
       }
