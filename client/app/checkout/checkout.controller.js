@@ -282,6 +282,7 @@ class CheckoutController {
 }
 
 angular.module('materialShopApp')
+  
   .controller('CheckoutController', CheckoutController);
 
 })();
