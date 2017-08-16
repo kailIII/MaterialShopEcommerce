@@ -60,7 +60,8 @@ class CheckoutController {
           PaymentMethod.active.query(function(res){
             
            vm.paymentOptions = res;
-            vm.options.paymentMethod = res[0];
+            
+           vm.options.paymentMethod = res[0];
         })
         this.Settings = Settings
         this.getMyAddress();
