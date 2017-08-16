@@ -17,4 +17,5 @@ angular.module('materialShopApp')
     {field: 'active', heading: 'Status', dataType: 'boolean'}
     
   ];
-  });
+ 
+});
