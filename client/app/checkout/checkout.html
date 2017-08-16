@@ -295,7 +295,8 @@
       <md-input-container md-is-error="(form.name.$error.required || form.name.$error.name) && form.name.$dirty">
 			
         <label>Name</label>
-			<input name="name" type="name" ng-model="checkout.addr.name" required autofocus>
+			
+        <input name="name" type="name" ng-model="checkout.addr.name" required autofocus>
 			<div ng-messages="form.name.$error" ng-if="form.name.$dirty">
 				<div ng-message="required">Name is required</div>
 			</div>
