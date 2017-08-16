@@ -15,6 +15,7 @@ describe('Controller: ContactCtrl', function () {
     scope = $rootScope.$new();
     
     ContactCtrl = $controller('ContactCtrl', {
+      
       $scope: scope
     });
   }));
