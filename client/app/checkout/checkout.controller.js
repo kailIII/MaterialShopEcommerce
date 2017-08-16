@@ -230,6 +230,7 @@ class CheckoutController {
         else if(!vm.coupon.amount) vm.coupon = {amount : 0}
         
         order.couponAmount = vm.coupon.amount
+        
         order.stripeToken = vm.stripeToken
         order.country_code = vm.Settings.country.code
         order.currency_code = vm.Settings.currency.code
