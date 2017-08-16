@@ -6,6 +6,7 @@ describe('Controller: CouponCtrl', function () {
   // load the controller's module
   beforeEach(module('materialShopApp'));
 
+ 
   var CouponCtrl, scope;
 
   // Initialize the controller and a mock scope
