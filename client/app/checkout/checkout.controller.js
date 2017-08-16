@@ -114,7 +114,8 @@ class CheckoutController {
           
           var vm = this;
           var confirm = this.$mdDialog.confirm()
-            .title('Would you like to delete the address?')
+            
+          .title('Would you like to delete the address?')
             .textContent('This is unrecoverable')
             .ariaLabel('Confirm delete address')
             .ok('Please do it!')
