@@ -87,6 +87,7 @@ class CheckoutController {
     }
       getMyAddress(){
         var vm = this;
+        
         vm.Address.my.query(function (res) {
             vm.address = res;
             vm.addr = res[0];
