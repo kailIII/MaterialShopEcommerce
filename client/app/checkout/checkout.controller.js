@@ -127,7 +127,8 @@ class CheckoutController {
           .cancel('No. keep')
 
             this.$mdDialog.show(confirm).then(function() {
-                vm.Address.delete({id:item._id}, function() {},function (res) {
+               
+            vm.Address.delete({id:item._id}, function() {},function (res) {
                     vm.Toast.show({ type: 'error', text: res });
                 });  
             })
