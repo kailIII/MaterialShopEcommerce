@@ -172,7 +172,8 @@ class CheckoutController {
              vm.loadingAddress = false;
             })
           }else{
-              this.Address.save(data, function () {
+              
+            this.Address.save(data, function () {
                 vm.loadingAddress = false;
                 vm.getMyAddress();
             })
