@@ -66,6 +66,7 @@ class CheckoutController {
         this.Settings = Settings
         
         this.getMyAddress();
+        
         if($stateParams.id === '404')
             this.payment = {id: $stateParams.id, msg: JSON.parse($stateParams.msg)}
         else if($stateParams.msg)
