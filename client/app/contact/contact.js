@@ -9,7 +9,8 @@ angular.module('materialShopApp')
     .state('contact', {
         
     url: '/contact',
-        templateUrl: 'app/contact/contact.html',
+        
+    templateUrl: 'app/contact/contact.html',
         controller: 'ContactCtrl',
         authenticate: true,
         title: 'Contacts Manager'
