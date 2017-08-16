@@ -201,7 +201,8 @@
                       <input name="exp_year" type="text" ng-model="checkout.stripeToken.exp_year"
                         
                       placeholder="Credit Card Expiry Month"
-                        autocomplete="off"
+                        
+                      autocomplete="off"
                         ng-pattern="'^(20)\\d{2}$'"/>
                         <small class="errorMessage" ng-show="orderForm.exp_year.$dirty && orderForm.exp_year.$invalid"> Credit Card exp_year is invalid.
                         </small>
