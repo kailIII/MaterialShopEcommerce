@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('materialShopApp')
+  
   .controller('CustomerCtrl', function ($scope) {
     $scope.options = [
       {field: 'photo', heading: 'Image', dataType: 'image'},
