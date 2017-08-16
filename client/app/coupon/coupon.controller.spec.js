@@ -14,6 +14,7 @@ describe('Controller: CouponCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     
     scope = $rootScope.$new();
+    
     CouponCtrl = $controller('CouponCtrl', {
       $scope: scope
     });
