@@ -268,6 +268,7 @@ class CheckoutController {
       
       checkCoupon(code, cartValue){
         var q = {};
+        
         var vm = this
         // x.where is required else it adds unneccessery colons which can not be parsed by the JSON parser at the Server
         q.where = {code:code,active:true,'minimumCartValue' : { $lte: cartValue } };
