@@ -3,7 +3,8 @@
 angular.module('materialShopApp')
   
   .config(function ($stateProvider) {
-    $stateProvider
+    
+  $stateProvider
       .state('contact', {
         url: '/contact',
         templateUrl: 'app/contact/contact.html',
