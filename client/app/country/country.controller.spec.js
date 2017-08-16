@@ -17,6 +17,7 @@ describe('Controller: CountryCtrl', function () {
     CountryCtrl = $controller('CountryCtrl', {
      
       $scope: scope
+    
     });
   }));
 
