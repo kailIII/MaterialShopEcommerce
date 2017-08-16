@@ -232,7 +232,8 @@
                      autocomplete="off"/>
                         
                <span class="text-muted text-success" ng-if="checkout.coupon.code">{{checkout.coupon.type}} of {{checkout.coupon.amount | currency : checkout.Settings.currency.symbol}} was applied to the cart</span>
-                        <small class="errorMessage" ng-show="orderForm.coupon.$dirty && orderForm.coupon.$invalid"> Discount coupon was expired.
+                        
+              <small class="errorMessage" ng-show="orderForm.coupon.$dirty && orderForm.coupon.$invalid"> Discount coupon was expired.
                         </small>
                         <div ng-messages="orderForm.coupon.$error" ng-if="orderForm.coupon.$dirty">
                             <div ng-message="required">Coupon is expired</div>
