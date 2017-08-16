@@ -141,7 +141,8 @@ class CheckoutController {
       // Setting the default country on page load
       
        getBestShipper(){
-        var vm = this;
+        
+         var vm = this;
         vm.Cart.cart.getBestShipper().$promise.then(function(data){
             vm.shipping = data[0];
         })
