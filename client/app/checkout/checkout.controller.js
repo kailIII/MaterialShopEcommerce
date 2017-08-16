@@ -242,6 +242,7 @@ class CheckoutController {
         order.total = vm.cartTotal + vm.shipping.best.charge - vm.coupon.amount
         
         order.email = this.Auth.getCurrentUser().email;
+        
         order.payment = 'Pending'
         order.items = this.cart.items
         delete order._id;
