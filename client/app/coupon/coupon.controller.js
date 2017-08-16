@@ -13,7 +13,8 @@ angular.module('materialShopApp')
     {field: 'minimumCartValue', dataType: 'number'},
       
     {field: 'info'},
-      {field: 'type'},
+      
+    {field: 'type'},
       {field: 'active', dataType: 'boolean'}
     ];
   });
