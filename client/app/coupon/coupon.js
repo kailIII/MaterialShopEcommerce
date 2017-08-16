@@ -15,5 +15,6 @@ angular.module('materialShopApp')
     controller: 'CouponCtrl',
         
     authenticate: 'admin'
-      });
+      
+  });
   });
