@@ -156,7 +156,8 @@ class CheckoutController {
         var vm = this;
           
          data.country = vm.Settings.country.name
-          vm.loadingAddress = true;
+          
+         vm.loadingAddress = true;
           if(_.has(data, '_id')){
             this.Address.update({ id: data._id }, data, function () {
                 vm.loadingAddress = false;
