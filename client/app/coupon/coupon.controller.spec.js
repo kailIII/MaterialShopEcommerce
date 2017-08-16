@@ -9,6 +9,7 @@ describe('Controller: CouponCtrl', function () {
  
   var CouponCtrl, scope;
 
+  
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
