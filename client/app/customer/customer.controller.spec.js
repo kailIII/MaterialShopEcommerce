@@ -1,5 +1,6 @@
 'use strict';
 
+
 describe('Controller: CustomerCtrl', function () {
 
   // load the controller's module
