@@ -19,6 +19,7 @@ describe('Controller: CheckoutCtrl', function () {
       $scope: scope
     
     });
+  
   }));
 
   it('should ...', function () {
