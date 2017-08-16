@@ -224,7 +224,8 @@
 			    <td>
                     
             <md-input-container md-is-error="(form.name.$error.required || form.name.$error.name) && form.name.$dirty" md-no-float>
-                        <input name="coupon" type="text" ng-model="checkout.options.coupon" ng-change="checkout.checkCoupon(checkout.options.coupon, checkout.Cart.cart.getTotalPrice())"
+                        
+              <input name="coupon" type="text" ng-model="checkout.options.coupon" ng-change="checkout.checkCoupon(checkout.options.coupon, checkout.Cart.cart.getTotalPrice())"
                         placeholder="Discount Coupon"
                         autocomplete="off"/>
                         <span class="text-muted text-success" ng-if="checkout.coupon.code">{{checkout.coupon.type}} of {{checkout.coupon.amount | currency : checkout.Settings.currency.symbol}} was applied to the cart</span>
