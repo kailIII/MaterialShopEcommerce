@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('materialShopApp')
+  
   .controller('CountryCtrl', function ($scope) {
     $scope.options = [
       {field: 'name'},
