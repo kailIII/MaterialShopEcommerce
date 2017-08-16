@@ -11,7 +11,8 @@ angular.module('materialShopApp')
     {field: 'amount', dataType: 'currency'},
       
     {field: 'minimumCartValue', dataType: 'number'},
-      {field: 'info'},
+      
+    {field: 'info'},
       {field: 'type'},
       {field: 'active', dataType: 'boolean'}
     ];
