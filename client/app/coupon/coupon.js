@@ -9,7 +9,8 @@ angular.module('materialShopApp')
     .state('coupon', {
        
     url: '/coupon',
-        templateUrl: 'app/coupon/coupon.html',
+        
+    templateUrl: 'app/coupon/coupon.html',
         controller: 'CouponCtrl',
         authenticate: 'admin'
       });
