@@ -252,7 +252,8 @@ class CheckoutController {
         if('charge' in order.shipping){
             
           this.loading = true;
-            this.cart.checkout(order,clearCart)
+            
+          this.cart.checkout(order,clearCart)
         }
         else{
             vm.Toast.show({ type: 'error', text: 'Item not available for your location' });
