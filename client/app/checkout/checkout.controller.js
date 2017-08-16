@@ -135,6 +135,7 @@ class CheckoutController {
             });  
             
             })
+     
       }
       // Setting the default country on page load
       getBestShipper(){
