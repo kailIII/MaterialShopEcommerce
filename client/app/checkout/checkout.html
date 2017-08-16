@@ -9,7 +9,8 @@
               <div ng-if="checkout.payment.id">ID: {{checkout.payment.id}}</div>
                 
               <b>Error:</b> 
-                    <div ng-repeat="m in checkout.payment.msg">{{m.field}} {{m.issue}} </div>
+                    
+              <div ng-repeat="m in checkout.payment.msg">{{m.field}} {{m.issue}} </div>
             </span>
           </md-card-header-text>
           
