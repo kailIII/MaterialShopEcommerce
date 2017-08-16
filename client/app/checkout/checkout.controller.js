@@ -96,7 +96,8 @@ class CheckoutController {
         vm.addr = res[0];
         
         vm.options.paymentMethod = vm.paymentOptions[0];
-            vm.socket.syncUpdates('address', vm.address);
+            
+        vm.socket.syncUpdates('address', vm.address);
         })
 
       }
