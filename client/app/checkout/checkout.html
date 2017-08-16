@@ -299,7 +299,8 @@
         <input name="name" type="name" ng-model="checkout.addr.name" required autofocus>
 			
         <div ng-messages="form.name.$error" ng-if="form.name.$dirty">
-				<div ng-message="required">Name is required</div>
+				
+          <div ng-message="required">Name is required</div>
 			</div>
 		</md-input-container>
         
