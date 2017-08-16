@@ -188,6 +188,7 @@ class CheckoutController {
         this.showAddressForm = visible;
       }
       cancelForm(addr){
+          
           this.showAddressForm = false;
           this.addr = this.address[0];
       }
