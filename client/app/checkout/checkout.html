@@ -320,7 +320,8 @@
           <label>City</label>
 			
           <input name="city" type="city" ng-model="checkout.addr.city" required/>
-			<div ng-messages="form.city.$error" ng-if="form.city.$dirty">
+			
+          <div ng-messages="form.city.$error" ng-if="form.city.$dirty">
 				<div ng-message="required">City is required</div>
 			</div>
 		</md-input-container>
