@@ -333,7 +333,8 @@
           <label>Zip</label>
 			
           <input name="zip" type="zip" ng-model="checkout.addr.zip" required only-numbers/>
-			<div ng-messages="form.zip.$error" ng-if="form.zip.$dirty">
+			
+          <div ng-messages="form.zip.$error" ng-if="form.zip.$dirty">
 				<div ng-message="required">Zip code is required</div>
 			</div>
 		</md-input-container>
