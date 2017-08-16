@@ -90,7 +90,8 @@ class CheckoutController {
         var vm = this;
         
         vm.Address.my.query(function (res) {
-            vm.address = res;
+        
+        vm.address = res;
             vm.addr = res[0];
             vm.options.paymentMethod = vm.paymentOptions[0];
             vm.socket.syncUpdates('address', vm.address);
