@@ -205,7 +205,8 @@ class CheckoutController {
         order.options = {};
         
         if(!_.has(order, 'phone') || !order.phone){
-            vm.Toast.show({ type: 'error', text: 'You need to specify an address with phone number' });
+            
+          vm.Toast.show({ type: 'error', text: 'You need to specify an address with phone number' });
             return;
         }
       
