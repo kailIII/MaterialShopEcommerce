@@ -95,7 +95,8 @@
 			    
         <td><h3>
                     <md-select ng-model="checkout.options.paymentMethod" placeholder="Payment Method">
-                        <md-option ng-value="o" ng-repeat="o in checkout.paymentOptions">{{o.name}}</md-option>
+                        
+                      <md-option ng-value="o" ng-repeat="o in checkout.paymentOptions">{{o.name}}</md-option>
                     </md-select>
             
                     <div ng-messages="orderForm.paymentMethod.$error" ng-if="orderForm.paymentMethod.$dirty">
