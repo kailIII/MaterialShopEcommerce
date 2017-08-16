@@ -178,7 +178,8 @@
                        autocomplete="off"
                         
                        ng-pattern="'(0[1-9]|1[012])'" />
-                        <small class="errorMessage" ng-show="orderForm.exp_month.$dirty && orderForm.exp_month.$invalid"> Credit Card exp_month is invalid.
+                        
+                      <small class="errorMessage" ng-show="orderForm.exp_month.$dirty && orderForm.exp_month.$invalid"> Credit Card exp_month is invalid.
                         </small>
                         <div ng-messages="orderForm.exp_month.$error" ng-if="orderForm.exp_month.$dirty">
                             <div ng-message="required">Expiry Month is required</div>
