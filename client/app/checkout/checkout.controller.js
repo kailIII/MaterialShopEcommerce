@@ -103,6 +103,7 @@ class CheckoutController {
       }
 
       switchAddress(a){
+          
           this.options.paymentMethod = this.paymentOptions[0];
           this.addr = a;
           this.getBestShipper();         
