@@ -289,7 +289,8 @@
     <p ng-show="checkout.error" class="md-warn">{{checkout.error.message}}</p>
 	
     <h3>SELECTED ADDRESS</h3>
-	<form name="form" ng-submit="checkout.saveAddress(checkout.addr);new.address=false;checkout.addr = checkout.address[0];" novalidate layout="column">
+	
+    <form name="form" ng-submit="checkout.saveAddress(checkout.addr);new.address=false;checkout.addr = checkout.address[0];" novalidate layout="column">
 		<md-input-container md-is-error="(form.name.$error.required || form.name.$error.name) && form.name.$dirty">
 			<label>Name</label>
 			<input name="name" type="name" ng-model="checkout.addr.name" required autofocus>
