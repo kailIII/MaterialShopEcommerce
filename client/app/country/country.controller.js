@@ -3,7 +3,8 @@
 angular.module('materialShopApp')
   
   .controller('CountryCtrl', function ($scope) {
-    $scope.options = [
+    
+  $scope.options = [
       {field: 'name'},
       {field: 'dial_code'},
       {field: 'code'},
