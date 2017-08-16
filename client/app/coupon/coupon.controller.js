@@ -1,6 +1,7 @@
 'use strict';
 
 angular.module('materialShopApp')
+  
   .controller('CouponCtrl', function ($scope) {
     $scope.options = [
       {field: 'code'},
