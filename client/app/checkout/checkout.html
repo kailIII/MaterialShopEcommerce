@@ -65,7 +65,8 @@
                   {{vm.shipping.best.charge | currency : checkout.Settings.currency.symbol}} ({{vm.shipping.best.carrier}})
                         
                   <small><i><a href="/">Shop</a> {{vm.shipping.free.freeShipping - checkout.Cart.cart.getTotalPrice() | currency : checkout.Settings.currency.symbol}} more for free shipping</i></small>
-                    </span>
+                    
+                </span>
                     <span class="md-3-line" ng-if="vm.shipping.best.charge<=0">
                         Free shipping through {{vm.shipping.free.carrier}}
                     </span>
