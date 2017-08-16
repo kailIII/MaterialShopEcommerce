@@ -19,6 +19,7 @@ describe('Controller: CouponCtrl', function () {
       
       $scope: scope
     });
+ 
   }));
 
   it('should ...', function () {
