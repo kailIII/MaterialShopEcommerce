@@ -170,7 +170,8 @@ class CheckoutController {
            }, function(err){ // If rejected by auth interceptor.service
                 
              vm.loadingAddress = false;
-            })
+            
+           })
           }else{
               
             this.Address.save(data, function () {
