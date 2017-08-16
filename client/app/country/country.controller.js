@@ -9,7 +9,8 @@ angular.module('materialShopApp')
     {field: 'name'},
       
     {field: 'dial_code'},
-      {field: 'code'},
+      
+    {field: 'code'},
       {field: 'active', dataType: 'boolean'}
     ];
   });
