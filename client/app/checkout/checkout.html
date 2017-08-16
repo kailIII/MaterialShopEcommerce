@@ -136,7 +136,8 @@
 				<td>CVC:</td>
 			    <td>
                     <md-input-container md-is-error="(form.cvc.$error.required || form.cvc.$error.cvc) && form.cvc.$dirty" md-no-float>
-                        <input name="cvc" type="text" ng-model="checkout.stripeToken.cvc"
+                        
+                      <input name="cvc" type="text" ng-model="checkout.stripeToken.cvc"
                         
                         placeholder="Credit Card CVC"
                         autocomplete="off"
