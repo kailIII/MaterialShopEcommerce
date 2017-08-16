@@ -17,4 +17,5 @@ angular.module('materialShopApp')
     authenticate: 'manager'
      
   });
-  });
+ 
+});
