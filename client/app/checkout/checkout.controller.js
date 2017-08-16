@@ -133,6 +133,7 @@ class CheckoutController {
             vm.Toast.show({ type: 'error', text: res });
                 
             });  
+            
             })
       }
       // Setting the default country on page load
