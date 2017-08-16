@@ -243,7 +243,8 @@
                         
               </div>
                     </md-input-container>
-                    <input type="hidden" ng-model="checkout.cartValid" validate-cart>
+                    
+            <input type="hidden" ng-model="checkout.cartValid" validate-cart>
                     <div class="hidden">{{orderForm.$valid = !(vm.shipping.best['charge'] === undefined)}}</div>
                 </td>
 			</tr>
