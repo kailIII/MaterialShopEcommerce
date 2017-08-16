@@ -69,7 +69,8 @@
                 </span>
                     
                 <span class="md-3-line" ng-if="vm.shipping.best.charge<=0">
-                        Free shipping through {{vm.shipping.free.carrier}}
+                        
+                  Free shipping through {{vm.shipping.free.carrier}}
                     </span>
                     <span class="md-3-line err" ng-if="vm.shipping.best.charge === undefined">
                         Sorry, but no supplier supplies to your location
