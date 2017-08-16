@@ -19,4 +19,5 @@ angular.module('materialShopApp')
     title: 'Contacts Manager'
      
   });
-  });
+  
+});
