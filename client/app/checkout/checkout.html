@@ -124,7 +124,8 @@
                         ng-maxlength="16"/>
                         
                       <small class="errorMessage" ng-show="orderForm.number.$dirty && orderForm.number.$invalid"> Credit Card number is invalid.
-                        </small>
+                        
+                      </small>
                         <div ng-messages="orderForm.number.$error" ng-if="orderForm.number.$dirty">
                             <div ng-message="required">Number is required</div>
                         </div>
