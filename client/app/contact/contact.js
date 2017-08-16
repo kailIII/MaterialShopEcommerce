@@ -11,7 +11,8 @@ angular.module('materialShopApp')
     url: '/contact',
         
     templateUrl: 'app/contact/contact.html',
-        controller: 'ContactCtrl',
+        
+    controller: 'ContactCtrl',
         authenticate: true,
         title: 'Contacts Manager'
       });
