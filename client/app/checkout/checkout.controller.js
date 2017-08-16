@@ -246,6 +246,7 @@ class CheckoutController {
         order.payment = 'Pending'
         
         order.items = this.cart.items
+        
         delete order._id;
         if('charge' in order.shipping){
             this.loading = true;
