@@ -3,6 +3,7 @@
 describe('Controller: CheckoutCtrl', function () {
 
   // load the controller's module
+  
   beforeEach(module('materialShopApp'));
 
   var CheckoutCtrl, scope;
