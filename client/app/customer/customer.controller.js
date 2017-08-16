@@ -5,7 +5,8 @@ angular.module('materialShopApp')
   .controller('CustomerCtrl', function ($scope) {
     
   $scope.options = [
-      {field: 'photo', heading: 'Image', dataType: 'image'},
+      
+    {field: 'photo', heading: 'Image', dataType: 'image'},
       {field: 'name', noSort: true, noEdit: true},
       {field: 'address', dataType: 'textarea'},
       {field: 'country', dataType: 'select', options: ['India', 'USA', 'Australlia', 'China', 'Japan']},
