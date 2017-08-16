@@ -283,7 +283,8 @@
 <!--Address box-->
 
 <md-card ng-show="checkout.showAddressForm">
-    <md-card-content>
+    
+  <md-card-content>
 	<p ng-show="checkout.error" class="md-warn">{{checkout.error.message}}</p>
 	<h3>SELECTED ADDRESS</h3>
 	<form name="form" ng-submit="checkout.saveAddress(checkout.addr);new.address=false;checkout.addr = checkout.address[0];" novalidate layout="column">
