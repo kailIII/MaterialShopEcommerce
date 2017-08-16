@@ -166,7 +166,8 @@ class CheckoutController {
            vm.loadingAddress = false;
                 
            vm.getMyAddress();
-            }, function(err){ // If rejected by auth interceptor.service
+            
+           }, function(err){ // If rejected by auth interceptor.service
                 vm.loadingAddress = false;
             })
           }else{
