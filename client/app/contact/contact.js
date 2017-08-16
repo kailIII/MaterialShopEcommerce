@@ -13,7 +13,8 @@ angular.module('materialShopApp')
     templateUrl: 'app/contact/contact.html',
         
     controller: 'ContactCtrl',
-        authenticate: true,
+        
+    authenticate: true,
         title: 'Contacts Manager'
       });
   });
