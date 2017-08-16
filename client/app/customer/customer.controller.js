@@ -13,6 +13,7 @@ angular.module('materialShopApp')
     {field: 'address', dataType: 'textarea'},
       
     {field: 'country', dataType: 'select', options: ['India', 'USA', 'Australlia', 'China', 'Japan']},
-      {field: 'active', heading: 'Status', dataType: 'boolean'}
+      
+    {field: 'active', heading: 'Status', dataType: 'boolean'}
     ];
   });
