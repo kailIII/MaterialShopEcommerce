@@ -5,7 +5,8 @@ angular.module('materialShopApp')
   .controller('CouponCtrl', function ($scope) {
     
   $scope.options = [
-      {field: 'code'},
+      
+    {field: 'code'},
       {field: 'amount', dataType: 'currency'},
       {field: 'minimumCartValue', dataType: 'number'},
       {field: 'info'},
