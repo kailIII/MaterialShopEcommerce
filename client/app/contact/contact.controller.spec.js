@@ -18,6 +18,7 @@ describe('Controller: ContactCtrl', function () {
       
       $scope: scope
     });
+  
   }));
 
   it('should ...', function () {
