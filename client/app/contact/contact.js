@@ -7,7 +7,8 @@ angular.module('materialShopApp')
   $stateProvider
       
     .state('contact', {
-        url: '/contact',
+        
+    url: '/contact',
         templateUrl: 'app/contact/contact.html',
         controller: 'ContactCtrl',
         authenticate: true,
