@@ -15,5 +15,6 @@ angular.module('materialShopApp')
     {field: 'country', dataType: 'select', options: ['India', 'USA', 'Australlia', 'China', 'Japan']},
       
     {field: 'active', heading: 'Status', dataType: 'boolean'}
-    ];
+    
+  ];
   });
