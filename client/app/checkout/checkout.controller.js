@@ -147,7 +147,8 @@ class CheckoutController {
          vm.Cart.cart.getBestShipper().$promise.then(function(data){
             
          vm.shipping = data[0];
-        })
+        
+         })
       }
 
       saveAddress(data){
