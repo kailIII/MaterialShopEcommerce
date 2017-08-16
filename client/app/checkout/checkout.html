@@ -380,7 +380,8 @@
                      ng-disabled="!form.$valid || checkout.loadingAddress" aria-label="Save Address" layout="row">
                 
             <ng-md-icon icon="save" ng-hide="checkout.loadingAddress"></ng-md-icon>
-                <md-progress-circular md-mode="indeterminate" md-diameter="25" ng-show="checkout.loadingAddress" class="md-accent md-hue-1"></md-progress-circular>
+                
+            <md-progress-circular md-mode="indeterminate" md-diameter="25" ng-show="checkout.loadingAddress" class="md-accent md-hue-1"></md-progress-circular>
                 Save <span hide show-gt-xs>as Primary Address</span>
             </md-button>
             <md-button ng-click="checkout.cancelForm(checkout.addr);new.address=false;">Cancel</md-button>
