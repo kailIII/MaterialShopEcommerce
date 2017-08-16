@@ -70,6 +70,7 @@ class CheckoutController {
         if($stateParams.id === '404')
             
         this.payment = {id: $stateParams.id, msg: JSON.parse($stateParams.msg)}
+        
         else if($stateParams.msg)
             this.payment = {id: $stateParams.id, msg: [{field: ':', issue: $stateParams.msg}]}
 
