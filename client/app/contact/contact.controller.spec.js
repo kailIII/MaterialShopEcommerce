@@ -13,6 +13,7 @@ describe('Controller: ContactCtrl', function () {
   beforeEach(inject(function ($controller, $rootScope) {
     
     scope = $rootScope.$new();
+    
     ContactCtrl = $controller('ContactCtrl', {
       $scope: scope
     });
