@@ -190,6 +190,7 @@ class CheckoutController {
       cancelForm(addr){
           
           this.showAddressForm = false;
+          
           this.addr = this.address[0];
       }
       checkout(order,o,clearCart){
