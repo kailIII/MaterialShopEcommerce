@@ -72,7 +72,8 @@ class CheckoutController {
         this.payment = {id: $stateParams.id, msg: JSON.parse($stateParams.msg)}
         
         else if($stateParams.msg)
-            this.payment = {id: $stateParams.id, msg: [{field: ':', issue: $stateParams.msg}]}
+            
+        this.payment = {id: $stateParams.id, msg: [{field: ':', issue: $stateParams.msg}]}
 
         this.$state = $state
         $scope.$on('$destroy', function() {
