@@ -7,6 +7,7 @@ describe('Controller: CustomerCtrl', function () {
   // load the controller's module
   beforeEach(module('materialShopApp'));
 
+  
   var CustomerCtrl, scope;
 
   // Initialize the controller and a mock scope
