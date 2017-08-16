@@ -11,6 +11,7 @@ angular.module('materialShopApp')
     {field: 'dial_code'},
       
     {field: 'code'},
-      {field: 'active', dataType: 'boolean'}
+      
+    {field: 'active', dataType: 'boolean'}
     ];
   });
