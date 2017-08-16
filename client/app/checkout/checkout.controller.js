@@ -162,7 +162,8 @@ class CheckoutController {
          if(_.has(data, '_id')){
             
            this.Address.update({ id: data._id }, data, function () {
-                vm.loadingAddress = false;
+                
+           vm.loadingAddress = false;
                 vm.getMyAddress();
             }, function(err){ // If rejected by auth interceptor.service
                 vm.loadingAddress = false;
