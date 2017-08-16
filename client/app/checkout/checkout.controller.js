@@ -78,7 +78,8 @@ class CheckoutController {
         this.$state = $state
         
         $scope.$on('$destroy', function() {
-            socket.unsyncUpdates('address');
+        
+        socket.unsyncUpdates('address');
         });
         // vm.cartTotal = Cart.cart.getTotalPrice();
         // vm.cartCount = Cart.cart.getTotalCount();
