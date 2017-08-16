@@ -19,6 +19,7 @@ describe('Controller: CustomerCtrl', function () {
      
       $scope: scope
     });
+  
   }));
 
   it('should ...', function () {
