@@ -129,7 +129,8 @@ class CheckoutController {
             this.$mdDialog.show(confirm).then(function() {
                
             vm.Address.delete({id:item._id}, function() {},function (res) {
-                    vm.Toast.show({ type: 'error', text: res });
+            
+            vm.Toast.show({ type: 'error', text: res });
                 });  
             })
       }
