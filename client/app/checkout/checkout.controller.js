@@ -87,6 +87,7 @@ class CheckoutController {
         vm.getBestShipper()
     }
       getMyAddress(){
+        
         var vm = this;
         
         vm.Address.my.query(function (res) {
