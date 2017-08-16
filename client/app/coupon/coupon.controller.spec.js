@@ -16,6 +16,7 @@ describe('Controller: CouponCtrl', function () {
     scope = $rootScope.$new();
     
     CouponCtrl = $controller('CouponCtrl', {
+      
       $scope: scope
     });
   }));
